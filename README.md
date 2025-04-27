@@ -14,3 +14,8 @@ Cluster de contêineres. Possibilita agendamento de cargas de trabalho e redund�
 ### nginx
 Servidor Web HTTP, com proxy reverso, balanceamento de carga, servidor de proxy TCP/UDP e proxy de email. Mais leve que o Apache pois lida com requisições Web do tipo “event-based web server”.
 
+### Proxy
+Servidor que atua como intermediário entre um dispositivo e a internet. Ele recebe as requisições de acesso da internet de um cliente e encaminha essas requisições a um servidor destino.
+
+### Dockerfile
+Arquivo de configuração (sem extensão) que contém instruções para criar uma imagem Docker personalizada.
