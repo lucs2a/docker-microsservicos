@@ -1,4 +1,16 @@
-Docker: Utilização prática no cenário de Microsserviços
-Denilson Bonatti, Instrutor - Digital Innovation One
+# Docker: Utilização prática no cenário de Microsserviços
+Desafio de projeto do curso de GNU/Linux da DIO (Digital Innovation One). Instrutor Denilson Bonatti.
 
-Muito se tem falado de containers e consequentemente do Docker no ambiente de desenvolvimento. Mas qual a real função de um container no cenários de microsserviços? Qual a real função e quais exemplos práticos podem ser aplicados no dia a dia? Essas são algumas das questões que serão abordadas de forma prática pelo Expert Instructor Denilson Bonatti nesta Live Coding. IMPORTANTE: Agora nossas Live Codings acontecerão no canal oficial da dio._ no YouTube. Então, já corre lá e ative o lembrete! Pré-requisitos: Conhecimentos básicos em Linux, Docker e AWS.
+## Algumas anotações feitas durante o módulo0
+### Microsserviços
+Arquitetura de software qie divide uma aplicação em vários serviços independentes que se comunicam por APIs, geralmente usando arquivos do tipo JSON.
+
+### Cluster
+Aglomerado de computadores trabalhando em conjunto. Cada computador é chamado de nó (node).
+
+### Docker Swarm
+Cluster de contêineres. Possibilita agendamento de cargas de trabalho e redundância de serviços, essencial para mitigar uma possível falha de outro contêiner.
+
+### nginx
+Servidor Web HTTP, com proxy reverso, balanceamento de carga, servidor de proxy TCP/UDP e proxy de email. Mais leve que o Apache pois lida com requisições Web do tipo “event-based web server”.
+
